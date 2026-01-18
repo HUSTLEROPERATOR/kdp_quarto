@@ -1,0 +1,21 @@
+project:
+  type: book
+
+book:
+  title: "PMA Porto Sicuro"
+  subtitle: "Journal di presenza e stabilità"
+  author: "PMA"
+  chapters:
+    - index.qmd
+    - journal.qmd
+
+format:
+  pdf:
+    papersize: 6in:9in
+    margin:
+      top: 0.75in
+      bottom: 0.75in
+      left: 0.75in
+      right: 0.75in
+    fontsize: 11pt
+    linestretch: 1.4
