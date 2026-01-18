@@ -1,0 +1,6 @@
+---
+phase_name: "Preparazione"
+guiding_question: "Cosa mi serve ora per sentirmi più stabile e pronta?"
+---
+
+{{< include phase-template.qmd >}}
