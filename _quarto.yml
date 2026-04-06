@@ -37,6 +37,13 @@ format:
       dark: solar
     css:
       epub.css
+    open-graph:
+      description: "A Quarto template for producing KDP-ready PDFs, valid EPUBs, and a book website from a single source."
+      image: "images/gosling.jpg"
+    twitter-card:
+      description: "A Quarto template for producing KDP-ready PDFs, valid EPUBs, and a book website from a single source."
+      image: "images/gosling.jpg"
+      card-style: summary_large_image
   pdf:
     keep-tex: true
     documentclass: scrbook
@@ -56,3 +63,4 @@ format:
            % Note: setting commandchars=\\\{\} here will cause an error 
         }  
     fig-pos: 'H'
+

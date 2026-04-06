@@ -1,6 +1,7 @@
 on:
   push:
     branches: main
+  workflow_dispatch:
 
 name: Render and Publish
 
@@ -42,3 +43,4 @@ jobs:
 
       - name: Check epub with epubcheck
         run: epubcheck _book/A-template-for-generating-a-valid-EPUB,-a-KDP-ready-PDF-and-a-website-for-your-book.epub
+

@@ -1,0 +1,29 @@
+# Quarto build output
+_book/
+.quarto/
+
+# LaTeX intermediate files
+*.tex
+*.log
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# R artifacts
+.Rhistory
+.RData
+.Ruserdata
+
+# renv cache (keep renv/ tracked but not cache)
+renv/library/
+renv/python/
+renv/staging/
+
+# OS files
+.DS_Store
+Thumbs.db
